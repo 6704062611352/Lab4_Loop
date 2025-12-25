@@ -13,8 +13,7 @@ int main()
                 }else if(score>=79){
                     printf("B");
                 }else if(score>=71){
-                    printf("C\n");
-                    printf("B is %d",79-score);
+                    printf("C");
                 }
             
             }else{
