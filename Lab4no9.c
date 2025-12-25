@@ -22,7 +22,7 @@ int main()
                         printf("D(%d)",score);
                     //}else if(score<0){
                         //printf("error score");
-                    }else{
+                    }else if(score>=0){
                         printf("F(%d)",score);
                     }
                 }
