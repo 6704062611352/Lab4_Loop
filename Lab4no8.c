@@ -9,21 +9,21 @@ int main()
         if(score<=100){
             if(score>=68){
                 if(score>=87){
-                    printf("A");
+                    printf("A(%d)",score);
                 }else if(score>=79){
-                    printf("B");
+                    printf("B(%d)",score);
                 }else if(score>=71){
-                    printf("C");
+                    printf("C(%d)",score);
                 }
             
             }else{
                 if(score<=63){
                     if(score>12){
-                        printf("D");
+                        printf("D(%d)",score);
                     }else if(score<0){
                         printf("error score");
                     }else{
-                        printf("F");
+                        printf("F(%d)",score);
                     }
                 }
             }
